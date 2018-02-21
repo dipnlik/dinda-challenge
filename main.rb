@@ -49,6 +49,6 @@ class GithubRepoHistory
     _, repo_name = @repo.split('/')
     timestamp = Time.now.strftime '%Y%m%d-%H%M%S'
 
-    File.open("#{repo_name}-#{timestamp}.txt", 'w+') { |f| f.puts output }
+    File.open("exports/#{repo_name}-#{timestamp}.txt", 'w+') { |f| f.puts output }
   end
 end
