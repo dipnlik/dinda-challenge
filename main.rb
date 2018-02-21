@@ -8,6 +8,14 @@ class GithubRepoHistory
     @commits_per_author = {}
   end
 
+  def perform
+    self.fetch
+    self.parse
+    self.export
+  end
+
+  protected
+
   def fetch
     commit_history = []
     page = 1
