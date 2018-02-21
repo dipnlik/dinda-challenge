@@ -2,7 +2,8 @@ require 'net/https'
 require 'json'
 
 class GithubRepoHistory
-  def initialize
+  def initialize(repo = 'Dinda-com-br/braspag-rest')
+    @repo = repo
     @commit_history = []
     @commits_per_author = {}
   end
@@ -12,7 +13,7 @@ class GithubRepoHistory
     page = 1
 
     loop do
-      response = Net::HTTP.get_response URI("https://api.github.com/repos/Dinda-com-br/braspag-rest/commits?page=#{page}")
+      response = Net::HTTP.get_response URI("https://api.github.com/repos/#{@repo}/commits?page=#{page}")
       abort 'Error retrieving history' unless response.is_a? Net::HTTPSuccess
     
       history_page = JSON.parse(response.body)
@@ -38,5 +39,16 @@ class GithubRepoHistory
     end
 
     @commits_per_author = commits_per_author
+  end
+
+  def export
+    output = @commits_per_author.values.map do |v|
+      [ v[:name], v[:email], v[:commit_count] ].join(';')
+    end
+
+    _, repo_name = @repo.split('/')
+    timestamp = Time.now.strftime '%Y%m%d-%H%M%S'
+
+    File.open("#{repo_name}-#{timestamp}.txt", 'w+') { |f| f.puts output }
   end
 end
