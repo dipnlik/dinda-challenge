@@ -1,0 +1,2029 @@
+[
+    {
+        "sha": "bfd491c52fb9673842c9f2da547632a9756b9ba5",
+        "commit": {
+            "author": {
+                "name": "Carlos Henrique",
+                "email": "carlosoteras@gmail.com",
+                "date": "2017-10-18T11:55:30Z"
+            },
+            "committer": {
+                "name": "Daniel Coca",
+                "email": "daniel.coca@youse.com.br",
+                "date": "2017-10-18T11:55:30Z"
+            },
+            "message": "New fields for registered bank slip (#22)\n\n* New field, specify type of identity.\r\n\r\n* Add new field boleto_number, it specify number of boleto.\r\n\r\n* New class responsible for mapping an address to customer.\r\n\r\n* Add address association on customer.\r\n\r\n* Update version.",
+            "tree": {
+                "sha": "73e8dd01598c3e51b37252c78161d0badc9e7175",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/73e8dd01598c3e51b37252c78161d0badc9e7175"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/bfd491c52fb9673842c9f2da547632a9756b9ba5",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/bfd491c52fb9673842c9f2da547632a9756b9ba5",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/bfd491c52fb9673842c9f2da547632a9756b9ba5",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/bfd491c52fb9673842c9f2da547632a9756b9ba5/comments",
+        "author": {
+            "login": "soteras",
+            "id": 7086520,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/7086520?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/soteras",
+            "html_url": "https://github.com/soteras",
+            "followers_url": "https://api.github.com/users/soteras/followers",
+            "following_url": "https://api.github.com/users/soteras/following{/other_user}",
+            "gists_url": "https://api.github.com/users/soteras/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/soteras/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/soteras/subscriptions",
+            "organizations_url": "https://api.github.com/users/soteras/orgs",
+            "repos_url": "https://api.github.com/users/soteras/repos",
+            "events_url": "https://api.github.com/users/soteras/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/soteras/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielcoca",
+            "id": 12816947,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/12816947?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielcoca",
+            "html_url": "https://github.com/danielcoca",
+            "followers_url": "https://api.github.com/users/danielcoca/followers",
+            "following_url": "https://api.github.com/users/danielcoca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielcoca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielcoca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielcoca/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielcoca/orgs",
+            "repos_url": "https://api.github.com/users/danielcoca/repos",
+            "events_url": "https://api.github.com/users/danielcoca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielcoca/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "86630e021ccd5224f56da575cc2cad261d19e543",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/86630e021ccd5224f56da575cc2cad261d19e543",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/86630e021ccd5224f56da575cc2cad261d19e543"
+            }
+        ]
+    },
+    {
+        "sha": "86630e021ccd5224f56da575cc2cad261d19e543",
+        "commit": {
+            "author": {
+                "name": "André Rodrigues",
+                "email": "a.andremr@gmail.com",
+                "date": "2017-10-18T11:55:21Z"
+            },
+            "committer": {
+                "name": "Daniel Coca",
+                "email": "daniel.coca@youse.com.br",
+                "date": "2017-10-18T11:55:21Z"
+            },
+            "message": "Improve response logging (#23)",
+            "tree": {
+                "sha": "bd4c7de20b644a1417526944eccece01a8e0edfc",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/bd4c7de20b644a1417526944eccece01a8e0edfc"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/86630e021ccd5224f56da575cc2cad261d19e543",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/86630e021ccd5224f56da575cc2cad261d19e543",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/86630e021ccd5224f56da575cc2cad261d19e543",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/86630e021ccd5224f56da575cc2cad261d19e543/comments",
+        "author": {
+            "login": "andre-rodrigues",
+            "id": 674120,
+            "avatar_url": "https://avatars0.githubusercontent.com/u/674120?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andre-rodrigues",
+            "html_url": "https://github.com/andre-rodrigues",
+            "followers_url": "https://api.github.com/users/andre-rodrigues/followers",
+            "following_url": "https://api.github.com/users/andre-rodrigues/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andre-rodrigues/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andre-rodrigues/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andre-rodrigues/subscriptions",
+            "organizations_url": "https://api.github.com/users/andre-rodrigues/orgs",
+            "repos_url": "https://api.github.com/users/andre-rodrigues/repos",
+            "events_url": "https://api.github.com/users/andre-rodrigues/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andre-rodrigues/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielcoca",
+            "id": 12816947,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/12816947?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielcoca",
+            "html_url": "https://github.com/danielcoca",
+            "followers_url": "https://api.github.com/users/danielcoca/followers",
+            "following_url": "https://api.github.com/users/danielcoca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielcoca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielcoca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielcoca/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielcoca/orgs",
+            "repos_url": "https://api.github.com/users/danielcoca/repos",
+            "events_url": "https://api.github.com/users/danielcoca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielcoca/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "3459629304482ba53cd554acb9b5539326f53e4a",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/3459629304482ba53cd554acb9b5539326f53e4a",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/3459629304482ba53cd554acb9b5539326f53e4a"
+            }
+        ]
+    },
+    {
+        "sha": "3459629304482ba53cd554acb9b5539326f53e4a",
+        "commit": {
+            "author": {
+                "name": "André Rodrigues",
+                "email": "a.andremr@gmail.com",
+                "date": "2017-09-14T14:57:17Z"
+            },
+            "committer": {
+                "name": "Daniel Coca",
+                "email": "daniel.coca@youse.com.br",
+                "date": "2017-09-14T14:57:17Z"
+            },
+            "message": "Map refund attributes of a sale (#21)\n\n* Map refunds\r\n\r\n* Reload attributes after cancel a sale\r\n\r\n* step up version and add docs on readme.md\r\n\r\n* add tests for refund model",
+            "tree": {
+                "sha": "1c00c6f9f9672c84f142a7365e7a57dae01d697e",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/1c00c6f9f9672c84f142a7365e7a57dae01d697e"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/3459629304482ba53cd554acb9b5539326f53e4a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/3459629304482ba53cd554acb9b5539326f53e4a",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/3459629304482ba53cd554acb9b5539326f53e4a",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/3459629304482ba53cd554acb9b5539326f53e4a/comments",
+        "author": {
+            "login": "andre-rodrigues",
+            "id": 674120,
+            "avatar_url": "https://avatars0.githubusercontent.com/u/674120?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andre-rodrigues",
+            "html_url": "https://github.com/andre-rodrigues",
+            "followers_url": "https://api.github.com/users/andre-rodrigues/followers",
+            "following_url": "https://api.github.com/users/andre-rodrigues/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andre-rodrigues/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andre-rodrigues/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andre-rodrigues/subscriptions",
+            "organizations_url": "https://api.github.com/users/andre-rodrigues/orgs",
+            "repos_url": "https://api.github.com/users/andre-rodrigues/repos",
+            "events_url": "https://api.github.com/users/andre-rodrigues/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andre-rodrigues/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielcoca",
+            "id": 12816947,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/12816947?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielcoca",
+            "html_url": "https://github.com/danielcoca",
+            "followers_url": "https://api.github.com/users/danielcoca/followers",
+            "following_url": "https://api.github.com/users/danielcoca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielcoca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielcoca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielcoca/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielcoca/orgs",
+            "repos_url": "https://api.github.com/users/danielcoca/repos",
+            "events_url": "https://api.github.com/users/danielcoca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielcoca/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a7b389bb2bae693024b7d9f04136a7be2f014293",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/a7b389bb2bae693024b7d9f04136a7be2f014293",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/a7b389bb2bae693024b7d9f04136a7be2f014293"
+            }
+        ]
+    },
+    {
+        "sha": "a7b389bb2bae693024b7d9f04136a7be2f014293",
+        "commit": {
+            "author": {
+                "name": "Denis Tierno",
+                "email": "denisantoniazzi@icloud.com",
+                "date": "2017-09-14T14:55:45Z"
+            },
+            "committer": {
+                "name": "Daniel Coca",
+                "email": "daniel.coca@youse.com.br",
+                "date": "2017-09-14T14:55:45Z"
+            },
+            "message": "Add BoletoNumber property (#20)",
+            "tree": {
+                "sha": "11c30a0c0e55d891a8234eb738eda6830268498d",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/11c30a0c0e55d891a8234eb738eda6830268498d"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/a7b389bb2bae693024b7d9f04136a7be2f014293",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/a7b389bb2bae693024b7d9f04136a7be2f014293",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/a7b389bb2bae693024b7d9f04136a7be2f014293",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/a7b389bb2bae693024b7d9f04136a7be2f014293/comments",
+        "author": {
+            "login": "detierno",
+            "id": 65082,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/65082?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/detierno",
+            "html_url": "https://github.com/detierno",
+            "followers_url": "https://api.github.com/users/detierno/followers",
+            "following_url": "https://api.github.com/users/detierno/following{/other_user}",
+            "gists_url": "https://api.github.com/users/detierno/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/detierno/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/detierno/subscriptions",
+            "organizations_url": "https://api.github.com/users/detierno/orgs",
+            "repos_url": "https://api.github.com/users/detierno/repos",
+            "events_url": "https://api.github.com/users/detierno/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/detierno/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielcoca",
+            "id": 12816947,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/12816947?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielcoca",
+            "html_url": "https://github.com/danielcoca",
+            "followers_url": "https://api.github.com/users/danielcoca/followers",
+            "following_url": "https://api.github.com/users/danielcoca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielcoca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielcoca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielcoca/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielcoca/orgs",
+            "repos_url": "https://api.github.com/users/danielcoca/repos",
+            "events_url": "https://api.github.com/users/danielcoca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielcoca/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "844be9624b4cf0bda2842ca50acab59a2fcca8a3",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/844be9624b4cf0bda2842ca50acab59a2fcca8a3",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/844be9624b4cf0bda2842ca50acab59a2fcca8a3"
+            }
+        ]
+    },
+    {
+        "sha": "844be9624b4cf0bda2842ca50acab59a2fcca8a3",
+        "commit": {
+            "author": {
+                "name": "Daniel Coca",
+                "email": "daniel.coca@youse.com.br",
+                "date": "2017-02-06T11:29:54Z"
+            },
+            "committer": {
+                "name": "Daniel Coca",
+                "email": "daniel.coca@youse.com.br",
+                "date": "2017-02-06T11:29:54Z"
+            },
+            "message": "Release 0.5.2 - Fix bug when no result is found (find by merchant order id)",
+            "tree": {
+                "sha": "8f2f2d008ab2cf1824bad89c4734aefaed94d36f",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/8f2f2d008ab2cf1824bad89c4734aefaed94d36f"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/844be9624b4cf0bda2842ca50acab59a2fcca8a3",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/844be9624b4cf0bda2842ca50acab59a2fcca8a3",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/844be9624b4cf0bda2842ca50acab59a2fcca8a3",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/844be9624b4cf0bda2842ca50acab59a2fcca8a3/comments",
+        "author": {
+            "login": "danielcoca",
+            "id": 12816947,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/12816947?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielcoca",
+            "html_url": "https://github.com/danielcoca",
+            "followers_url": "https://api.github.com/users/danielcoca/followers",
+            "following_url": "https://api.github.com/users/danielcoca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielcoca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielcoca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielcoca/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielcoca/orgs",
+            "repos_url": "https://api.github.com/users/danielcoca/repos",
+            "events_url": "https://api.github.com/users/danielcoca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielcoca/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielcoca",
+            "id": 12816947,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/12816947?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielcoca",
+            "html_url": "https://github.com/danielcoca",
+            "followers_url": "https://api.github.com/users/danielcoca/followers",
+            "following_url": "https://api.github.com/users/danielcoca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielcoca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielcoca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielcoca/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielcoca/orgs",
+            "repos_url": "https://api.github.com/users/danielcoca/repos",
+            "events_url": "https://api.github.com/users/danielcoca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielcoca/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b89ef2c766123859366ffc415750ea9f91ff6b0f",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/b89ef2c766123859366ffc415750ea9f91ff6b0f",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/b89ef2c766123859366ffc415750ea9f91ff6b0f"
+            }
+        ]
+    },
+    {
+        "sha": "b89ef2c766123859366ffc415750ea9f91ff6b0f",
+        "commit": {
+            "author": {
+                "name": "André Rodrigues",
+                "email": "a.andremr@gmail.com",
+                "date": "2017-02-06T11:27:32Z"
+            },
+            "committer": {
+                "name": "Daniel Coca",
+                "email": "daniel.coca@youse.com.br",
+                "date": "2017-02-06T11:27:32Z"
+            },
+            "message": "Fix bug when no result is found (#19)\n\n* :bug: Fix bug when no result is found for a merchant order id\r\n\r\n* Update README.md",
+            "tree": {
+                "sha": "ba023b57228ab4d01e2dfe452b715b6f97f7c7a3",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/ba023b57228ab4d01e2dfe452b715b6f97f7c7a3"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/b89ef2c766123859366ffc415750ea9f91ff6b0f",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/b89ef2c766123859366ffc415750ea9f91ff6b0f",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/b89ef2c766123859366ffc415750ea9f91ff6b0f",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/b89ef2c766123859366ffc415750ea9f91ff6b0f/comments",
+        "author": {
+            "login": "andre-rodrigues",
+            "id": 674120,
+            "avatar_url": "https://avatars0.githubusercontent.com/u/674120?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andre-rodrigues",
+            "html_url": "https://github.com/andre-rodrigues",
+            "followers_url": "https://api.github.com/users/andre-rodrigues/followers",
+            "following_url": "https://api.github.com/users/andre-rodrigues/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andre-rodrigues/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andre-rodrigues/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andre-rodrigues/subscriptions",
+            "organizations_url": "https://api.github.com/users/andre-rodrigues/orgs",
+            "repos_url": "https://api.github.com/users/andre-rodrigues/repos",
+            "events_url": "https://api.github.com/users/andre-rodrigues/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andre-rodrigues/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielcoca",
+            "id": 12816947,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/12816947?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielcoca",
+            "html_url": "https://github.com/danielcoca",
+            "followers_url": "https://api.github.com/users/danielcoca/followers",
+            "following_url": "https://api.github.com/users/danielcoca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielcoca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielcoca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielcoca/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielcoca/orgs",
+            "repos_url": "https://api.github.com/users/danielcoca/repos",
+            "events_url": "https://api.github.com/users/danielcoca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielcoca/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2e6ee99daadf943b800fbde2c344478982dad96d",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/2e6ee99daadf943b800fbde2c344478982dad96d",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/2e6ee99daadf943b800fbde2c344478982dad96d"
+            }
+        ]
+    },
+    {
+        "sha": "2e6ee99daadf943b800fbde2c344478982dad96d",
+        "commit": {
+            "author": {
+                "name": "Daniel Coca",
+                "email": "daniel.coca@youse.com.br",
+                "date": "2017-01-18T16:38:56Z"
+            },
+            "committer": {
+                "name": "Daniel Coca",
+                "email": "daniel.coca@youse.com.br",
+                "date": "2017-01-18T16:38:56Z"
+            },
+            "message": "Release 0.5.1 (Find payments by merchant order id).",
+            "tree": {
+                "sha": "93fbe2da3c950dbd354df866db8be6f25b426c22",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/93fbe2da3c950dbd354df866db8be6f25b426c22"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/2e6ee99daadf943b800fbde2c344478982dad96d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/2e6ee99daadf943b800fbde2c344478982dad96d",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/2e6ee99daadf943b800fbde2c344478982dad96d",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/2e6ee99daadf943b800fbde2c344478982dad96d/comments",
+        "author": {
+            "login": "danielcoca",
+            "id": 12816947,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/12816947?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielcoca",
+            "html_url": "https://github.com/danielcoca",
+            "followers_url": "https://api.github.com/users/danielcoca/followers",
+            "following_url": "https://api.github.com/users/danielcoca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielcoca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielcoca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielcoca/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielcoca/orgs",
+            "repos_url": "https://api.github.com/users/danielcoca/repos",
+            "events_url": "https://api.github.com/users/danielcoca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielcoca/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielcoca",
+            "id": 12816947,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/12816947?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielcoca",
+            "html_url": "https://github.com/danielcoca",
+            "followers_url": "https://api.github.com/users/danielcoca/followers",
+            "following_url": "https://api.github.com/users/danielcoca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielcoca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielcoca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielcoca/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielcoca/orgs",
+            "repos_url": "https://api.github.com/users/danielcoca/repos",
+            "events_url": "https://api.github.com/users/danielcoca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielcoca/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c1ce37d1eae727ef55f357b67fb730195db1c56a",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/c1ce37d1eae727ef55f357b67fb730195db1c56a",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/c1ce37d1eae727ef55f357b67fb730195db1c56a"
+            }
+        ]
+    },
+    {
+        "sha": "c1ce37d1eae727ef55f357b67fb730195db1c56a",
+        "commit": {
+            "author": {
+                "name": "André Rodrigues",
+                "email": "a.andremr@gmail.com",
+                "date": "2017-01-18T16:36:00Z"
+            },
+            "committer": {
+                "name": "Daniel Coca",
+                "email": "daniel.coca@youse.com.br",
+                "date": "2017-01-18T16:36:00Z"
+            },
+            "message": "Find payments by merchant order id (#18)",
+            "tree": {
+                "sha": "8a9f50c715cd132d8f6b5255b8207627ed7115d6",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/8a9f50c715cd132d8f6b5255b8207627ed7115d6"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/c1ce37d1eae727ef55f357b67fb730195db1c56a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/c1ce37d1eae727ef55f357b67fb730195db1c56a",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/c1ce37d1eae727ef55f357b67fb730195db1c56a",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/c1ce37d1eae727ef55f357b67fb730195db1c56a/comments",
+        "author": {
+            "login": "andre-rodrigues",
+            "id": 674120,
+            "avatar_url": "https://avatars0.githubusercontent.com/u/674120?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/andre-rodrigues",
+            "html_url": "https://github.com/andre-rodrigues",
+            "followers_url": "https://api.github.com/users/andre-rodrigues/followers",
+            "following_url": "https://api.github.com/users/andre-rodrigues/following{/other_user}",
+            "gists_url": "https://api.github.com/users/andre-rodrigues/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/andre-rodrigues/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/andre-rodrigues/subscriptions",
+            "organizations_url": "https://api.github.com/users/andre-rodrigues/orgs",
+            "repos_url": "https://api.github.com/users/andre-rodrigues/repos",
+            "events_url": "https://api.github.com/users/andre-rodrigues/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/andre-rodrigues/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielcoca",
+            "id": 12816947,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/12816947?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielcoca",
+            "html_url": "https://github.com/danielcoca",
+            "followers_url": "https://api.github.com/users/danielcoca/followers",
+            "following_url": "https://api.github.com/users/danielcoca/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielcoca/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielcoca/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielcoca/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielcoca/orgs",
+            "repos_url": "https://api.github.com/users/danielcoca/repos",
+            "events_url": "https://api.github.com/users/danielcoca/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielcoca/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "eee670436bc29e79f2e2df6c62069217b1692bdb",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/eee670436bc29e79f2e2df6c62069217b1692bdb",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/eee670436bc29e79f2e2df6c62069217b1692bdb"
+            }
+        ]
+    },
+    {
+        "sha": "eee670436bc29e79f2e2df6c62069217b1692bdb",
+        "commit": {
+            "author": {
+                "name": "Daniel Vidal Salvi Marson",
+                "email": "daniel.vidal@youse.com.br",
+                "date": "2016-12-14T18:08:42Z"
+            },
+            "committer": {
+                "name": "Marcio Toshio Ide",
+                "email": "contato@marciotoshio.com.br",
+                "date": "2016-12-14T18:08:42Z"
+            },
+            "message": "Bump RestClient gem (#17)",
+            "tree": {
+                "sha": "5741fb236df84d1665135cd72b81b313967b0c11",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/5741fb236df84d1665135cd72b81b313967b0c11"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/eee670436bc29e79f2e2df6c62069217b1692bdb",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/eee670436bc29e79f2e2df6c62069217b1692bdb",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/eee670436bc29e79f2e2df6c62069217b1692bdb",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/eee670436bc29e79f2e2df6c62069217b1692bdb/comments",
+        "author": {
+            "login": "danielvidal",
+            "id": 392737,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/392737?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielvidal",
+            "html_url": "https://github.com/danielvidal",
+            "followers_url": "https://api.github.com/users/danielvidal/followers",
+            "following_url": "https://api.github.com/users/danielvidal/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielvidal/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielvidal/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielvidal/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielvidal/orgs",
+            "repos_url": "https://api.github.com/users/danielvidal/repos",
+            "events_url": "https://api.github.com/users/danielvidal/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielvidal/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "marciotoshio",
+            "id": 454861,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/454861?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marciotoshio",
+            "html_url": "https://github.com/marciotoshio",
+            "followers_url": "https://api.github.com/users/marciotoshio/followers",
+            "following_url": "https://api.github.com/users/marciotoshio/following{/other_user}",
+            "gists_url": "https://api.github.com/users/marciotoshio/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/marciotoshio/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/marciotoshio/subscriptions",
+            "organizations_url": "https://api.github.com/users/marciotoshio/orgs",
+            "repos_url": "https://api.github.com/users/marciotoshio/repos",
+            "events_url": "https://api.github.com/users/marciotoshio/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/marciotoshio/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "eff541c2e6d647a1d7fe5b35d1e298e944133db8",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/eff541c2e6d647a1d7fe5b35d1e298e944133db8",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/eff541c2e6d647a1d7fe5b35d1e298e944133db8"
+            }
+        ]
+    },
+    {
+        "sha": "eff541c2e6d647a1d7fe5b35d1e298e944133db8",
+        "commit": {
+            "author": {
+                "name": "Daniel Mello Urbano",
+                "email": "dnl_stunts@hotmail.com",
+                "date": "2016-11-17T14:01:58Z"
+            },
+            "committer": {
+                "name": "Marcio Toshio Ide",
+                "email": "contato@marciotoshio.com.br",
+                "date": "2016-11-17T14:01:58Z"
+            },
+            "message": "Adding request timeout when making requests to Braspag Gateway (#16)",
+            "tree": {
+                "sha": "0f7becd803b1104e5a7b16754c2b1a56fb56a740",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/0f7becd803b1104e5a7b16754c2b1a56fb56a740"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/eff541c2e6d647a1d7fe5b35d1e298e944133db8",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/eff541c2e6d647a1d7fe5b35d1e298e944133db8",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/eff541c2e6d647a1d7fe5b35d1e298e944133db8",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/eff541c2e6d647a1d7fe5b35d1e298e944133db8/comments",
+        "author": {
+            "login": "stunts",
+            "id": 199619,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/199619?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/stunts",
+            "html_url": "https://github.com/stunts",
+            "followers_url": "https://api.github.com/users/stunts/followers",
+            "following_url": "https://api.github.com/users/stunts/following{/other_user}",
+            "gists_url": "https://api.github.com/users/stunts/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/stunts/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/stunts/subscriptions",
+            "organizations_url": "https://api.github.com/users/stunts/orgs",
+            "repos_url": "https://api.github.com/users/stunts/repos",
+            "events_url": "https://api.github.com/users/stunts/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/stunts/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "marciotoshio",
+            "id": 454861,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/454861?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marciotoshio",
+            "html_url": "https://github.com/marciotoshio",
+            "followers_url": "https://api.github.com/users/marciotoshio/followers",
+            "following_url": "https://api.github.com/users/marciotoshio/following{/other_user}",
+            "gists_url": "https://api.github.com/users/marciotoshio/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/marciotoshio/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/marciotoshio/subscriptions",
+            "organizations_url": "https://api.github.com/users/marciotoshio/orgs",
+            "repos_url": "https://api.github.com/users/marciotoshio/repos",
+            "events_url": "https://api.github.com/users/marciotoshio/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/marciotoshio/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a7586b21aa84d7f8a6655ba03b66086b4c601f68",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/a7586b21aa84d7f8a6655ba03b66086b4c601f68",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/a7586b21aa84d7f8a6655ba03b66086b4c601f68"
+            }
+        ]
+    },
+    {
+        "sha": "a7586b21aa84d7f8a6655ba03b66086b4c601f68",
+        "commit": {
+            "author": {
+                "name": "Marcio Toshio Ide",
+                "email": "marcio.ide@dinda.com.br",
+                "date": "2016-06-04T01:03:54Z"
+            },
+            "committer": {
+                "name": "Marcio Toshio Ide",
+                "email": "marcio.ide@dinda.com.br",
+                "date": "2016-06-04T01:03:54Z"
+            },
+            "message": "Release 0.5.0 (Add support for fraud analysis)",
+            "tree": {
+                "sha": "6197631dbc90e1535da253174566f655ee43bb3b",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/6197631dbc90e1535da253174566f655ee43bb3b"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/a7586b21aa84d7f8a6655ba03b66086b4c601f68",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/a7586b21aa84d7f8a6655ba03b66086b4c601f68",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/a7586b21aa84d7f8a6655ba03b66086b4c601f68",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/a7586b21aa84d7f8a6655ba03b66086b4c601f68/comments",
+        "author": {
+            "login": "marciotoshio",
+            "id": 454861,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/454861?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marciotoshio",
+            "html_url": "https://github.com/marciotoshio",
+            "followers_url": "https://api.github.com/users/marciotoshio/followers",
+            "following_url": "https://api.github.com/users/marciotoshio/following{/other_user}",
+            "gists_url": "https://api.github.com/users/marciotoshio/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/marciotoshio/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/marciotoshio/subscriptions",
+            "organizations_url": "https://api.github.com/users/marciotoshio/orgs",
+            "repos_url": "https://api.github.com/users/marciotoshio/repos",
+            "events_url": "https://api.github.com/users/marciotoshio/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/marciotoshio/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "marciotoshio",
+            "id": 454861,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/454861?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marciotoshio",
+            "html_url": "https://github.com/marciotoshio",
+            "followers_url": "https://api.github.com/users/marciotoshio/followers",
+            "following_url": "https://api.github.com/users/marciotoshio/following{/other_user}",
+            "gists_url": "https://api.github.com/users/marciotoshio/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/marciotoshio/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/marciotoshio/subscriptions",
+            "organizations_url": "https://api.github.com/users/marciotoshio/orgs",
+            "repos_url": "https://api.github.com/users/marciotoshio/repos",
+            "events_url": "https://api.github.com/users/marciotoshio/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/marciotoshio/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e11a69db5343f110ef0b9cbd1463fa2441c09f69",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/e11a69db5343f110ef0b9cbd1463fa2441c09f69",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/e11a69db5343f110ef0b9cbd1463fa2441c09f69"
+            }
+        ]
+    },
+    {
+        "sha": "e11a69db5343f110ef0b9cbd1463fa2441c09f69",
+        "commit": {
+            "author": {
+                "name": "Marcio Toshio Ide",
+                "email": "contato@marciotoshio.com.br",
+                "date": "2016-06-01T00:19:25Z"
+            },
+            "committer": {
+                "name": "Marcio Toshio Ide",
+                "email": "contato@marciotoshio.com.br",
+                "date": "2016-06-01T00:19:25Z"
+            },
+            "message": "Merge pull request #15 from youse-seguradora/master\n\nAdd support for fraud analysis.",
+            "tree": {
+                "sha": "4df7fad978e7ff2a4eceaea5c58292bcbe48138c",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/4df7fad978e7ff2a4eceaea5c58292bcbe48138c"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/e11a69db5343f110ef0b9cbd1463fa2441c09f69",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/e11a69db5343f110ef0b9cbd1463fa2441c09f69",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/e11a69db5343f110ef0b9cbd1463fa2441c09f69",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/e11a69db5343f110ef0b9cbd1463fa2441c09f69/comments",
+        "author": {
+            "login": "marciotoshio",
+            "id": 454861,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/454861?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marciotoshio",
+            "html_url": "https://github.com/marciotoshio",
+            "followers_url": "https://api.github.com/users/marciotoshio/followers",
+            "following_url": "https://api.github.com/users/marciotoshio/following{/other_user}",
+            "gists_url": "https://api.github.com/users/marciotoshio/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/marciotoshio/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/marciotoshio/subscriptions",
+            "organizations_url": "https://api.github.com/users/marciotoshio/orgs",
+            "repos_url": "https://api.github.com/users/marciotoshio/repos",
+            "events_url": "https://api.github.com/users/marciotoshio/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/marciotoshio/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "marciotoshio",
+            "id": 454861,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/454861?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/marciotoshio",
+            "html_url": "https://github.com/marciotoshio",
+            "followers_url": "https://api.github.com/users/marciotoshio/followers",
+            "following_url": "https://api.github.com/users/marciotoshio/following{/other_user}",
+            "gists_url": "https://api.github.com/users/marciotoshio/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/marciotoshio/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/marciotoshio/subscriptions",
+            "organizations_url": "https://api.github.com/users/marciotoshio/orgs",
+            "repos_url": "https://api.github.com/users/marciotoshio/repos",
+            "events_url": "https://api.github.com/users/marciotoshio/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/marciotoshio/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e"
+            },
+            {
+                "sha": "74dcfe115024bbc5685db99391c1ab94b2317ade",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/74dcfe115024bbc5685db99391c1ab94b2317ade",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/74dcfe115024bbc5685db99391c1ab94b2317ade"
+            }
+        ]
+    },
+    {
+        "sha": "74dcfe115024bbc5685db99391c1ab94b2317ade",
+        "commit": {
+            "author": {
+                "name": "Kassio Borges",
+                "email": "kassioborgesm@gmail.com",
+                "date": "2016-05-31T14:19:14Z"
+            },
+            "committer": {
+                "name": "Kassio Borges",
+                "email": "kassioborgesm@gmail.com",
+                "date": "2016-05-31T14:19:14Z"
+            },
+            "message": "Merge pull request #1 from youse-seguradora/kb-add-youse-extensions\n\nAdd fraud analyses extensions",
+            "tree": {
+                "sha": "4df7fad978e7ff2a4eceaea5c58292bcbe48138c",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/4df7fad978e7ff2a4eceaea5c58292bcbe48138c"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/74dcfe115024bbc5685db99391c1ab94b2317ade",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/74dcfe115024bbc5685db99391c1ab94b2317ade",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/74dcfe115024bbc5685db99391c1ab94b2317ade",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/74dcfe115024bbc5685db99391c1ab94b2317ade/comments",
+        "author": {
+            "login": "kassio",
+            "id": 120483,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/120483?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kassio",
+            "html_url": "https://github.com/kassio",
+            "followers_url": "https://api.github.com/users/kassio/followers",
+            "following_url": "https://api.github.com/users/kassio/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kassio/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kassio/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kassio/subscriptions",
+            "organizations_url": "https://api.github.com/users/kassio/orgs",
+            "repos_url": "https://api.github.com/users/kassio/repos",
+            "events_url": "https://api.github.com/users/kassio/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kassio/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "kassio",
+            "id": 120483,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/120483?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kassio",
+            "html_url": "https://github.com/kassio",
+            "followers_url": "https://api.github.com/users/kassio/followers",
+            "following_url": "https://api.github.com/users/kassio/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kassio/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kassio/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kassio/subscriptions",
+            "organizations_url": "https://api.github.com/users/kassio/orgs",
+            "repos_url": "https://api.github.com/users/kassio/repos",
+            "events_url": "https://api.github.com/users/kassio/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kassio/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e"
+            },
+            {
+                "sha": "a3aff11519a63a988c56a8b3706d83681cd8de00",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/a3aff11519a63a988c56a8b3706d83681cd8de00",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/a3aff11519a63a988c56a8b3706d83681cd8de00"
+            }
+        ]
+    },
+    {
+        "sha": "a3aff11519a63a988c56a8b3706d83681cd8de00",
+        "commit": {
+            "author": {
+                "name": "Kassio Borges",
+                "email": "kassio.borges@plataformatec.com.br",
+                "date": "2016-05-25T19:23:09Z"
+            },
+            "committer": {
+                "name": "Kassio Borges",
+                "email": "kassio.borges@plataformatec.com.br",
+                "date": "2016-05-31T13:42:03Z"
+            },
+            "message": "Add fraud analyses support.",
+            "tree": {
+                "sha": "4df7fad978e7ff2a4eceaea5c58292bcbe48138c",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/4df7fad978e7ff2a4eceaea5c58292bcbe48138c"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/a3aff11519a63a988c56a8b3706d83681cd8de00",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/a3aff11519a63a988c56a8b3706d83681cd8de00",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/a3aff11519a63a988c56a8b3706d83681cd8de00",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/a3aff11519a63a988c56a8b3706d83681cd8de00/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "c7db0c74e0b8ce1423afac6d377ab1222c5f7eb4",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/c7db0c74e0b8ce1423afac6d377ab1222c5f7eb4",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/c7db0c74e0b8ce1423afac6d377ab1222c5f7eb4"
+            }
+        ]
+    },
+    {
+        "sha": "c7db0c74e0b8ce1423afac6d377ab1222c5f7eb4",
+        "commit": {
+            "author": {
+                "name": "Kassio Borges",
+                "email": "kassio.borges@plataformatec.com.br",
+                "date": "2016-05-25T18:02:39Z"
+            },
+            "committer": {
+                "name": "Kassio Borges",
+                "email": "kassio.borges@plataformatec.com.br",
+                "date": "2016-05-30T19:12:18Z"
+            },
+            "message": "Improve the `Hashie::IUTrash`.\n\n`Hashie::IUTrash#inverse_attributes` now accepts nested properties. If a\nproperty is an `Array` or a `Set` now it inverse the nested properties\ntoo.",
+            "tree": {
+                "sha": "d043cad46e4149d2c61e2827f22ce1cfcf3310ef",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/d043cad46e4149d2c61e2827f22ce1cfcf3310ef"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/c7db0c74e0b8ce1423afac6d377ab1222c5f7eb4",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/c7db0c74e0b8ce1423afac6d377ab1222c5f7eb4",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/c7db0c74e0b8ce1423afac6d377ab1222c5f7eb4",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/c7db0c74e0b8ce1423afac6d377ab1222c5f7eb4/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e"
+            }
+        ]
+    },
+    {
+        "sha": "4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e",
+        "commit": {
+            "author": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-12-23T13:06:20Z"
+            },
+            "committer": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-12-23T13:06:26Z"
+            },
+            "message": "Release 0.4.4 (Add identity attribute for customers)",
+            "tree": {
+                "sha": "42f9644141c897c24749263f8afdebc686b7f1e3",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/42f9644141c897c24749263f8afdebc686b7f1e3"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/4e8aa5a6cd90b56f91c7ce8449b4a9e1ad49f63e/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "d7cf36b1c44e9b504f73d42f9e500145f6e772be",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/d7cf36b1c44e9b504f73d42f9e500145f6e772be",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/d7cf36b1c44e9b504f73d42f9e500145f6e772be"
+            }
+        ]
+    },
+    {
+        "sha": "d7cf36b1c44e9b504f73d42f9e500145f6e772be",
+        "commit": {
+            "author": {
+                "name": "Antonio Carlos",
+                "email": "antonio@compilandosolucao.com.br",
+                "date": "2015-12-23T13:05:12Z"
+            },
+            "committer": {
+                "name": "Antonio Carlos",
+                "email": "antonio@compilandosolucao.com.br",
+                "date": "2015-12-23T13:05:12Z"
+            },
+            "message": "Merge pull request #14 from rbrancher/customer_identity\n\nAdd :identity property to Customer",
+            "tree": {
+                "sha": "e1239c7b68bf62ce45fbaef935287cf459effb63",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/e1239c7b68bf62ce45fbaef935287cf459effb63"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/d7cf36b1c44e9b504f73d42f9e500145f6e772be",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/d7cf36b1c44e9b504f73d42f9e500145f6e772be",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/d7cf36b1c44e9b504f73d42f9e500145f6e772be",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/d7cf36b1c44e9b504f73d42f9e500145f6e772be/comments",
+        "author": {
+            "login": "antoniofilho",
+            "id": 469113,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/469113?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/antoniofilho",
+            "html_url": "https://github.com/antoniofilho",
+            "followers_url": "https://api.github.com/users/antoniofilho/followers",
+            "following_url": "https://api.github.com/users/antoniofilho/following{/other_user}",
+            "gists_url": "https://api.github.com/users/antoniofilho/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/antoniofilho/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/antoniofilho/subscriptions",
+            "organizations_url": "https://api.github.com/users/antoniofilho/orgs",
+            "repos_url": "https://api.github.com/users/antoniofilho/repos",
+            "events_url": "https://api.github.com/users/antoniofilho/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/antoniofilho/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "antoniofilho",
+            "id": 469113,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/469113?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/antoniofilho",
+            "html_url": "https://github.com/antoniofilho",
+            "followers_url": "https://api.github.com/users/antoniofilho/followers",
+            "following_url": "https://api.github.com/users/antoniofilho/following{/other_user}",
+            "gists_url": "https://api.github.com/users/antoniofilho/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/antoniofilho/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/antoniofilho/subscriptions",
+            "organizations_url": "https://api.github.com/users/antoniofilho/orgs",
+            "repos_url": "https://api.github.com/users/antoniofilho/repos",
+            "events_url": "https://api.github.com/users/antoniofilho/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/antoniofilho/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d"
+            },
+            {
+                "sha": "ed49a1323d697b522137837a2ed86c206b48a9f2",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/ed49a1323d697b522137837a2ed86c206b48a9f2",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/ed49a1323d697b522137837a2ed86c206b48a9f2"
+            }
+        ]
+    },
+    {
+        "sha": "ed49a1323d697b522137837a2ed86c206b48a9f2",
+        "commit": {
+            "author": {
+                "name": "rodrigo brancher",
+                "email": "rbrancher@gmail.com",
+                "date": "2015-12-22T03:36:12Z"
+            },
+            "committer": {
+                "name": "rodrigo brancher",
+                "email": "rbrancher@gmail.com",
+                "date": "2015-12-22T04:42:53Z"
+            },
+            "message": "Add :identity property to Customer, allowing creation of billets withclient document identification",
+            "tree": {
+                "sha": "e1239c7b68bf62ce45fbaef935287cf459effb63",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/e1239c7b68bf62ce45fbaef935287cf459effb63"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/ed49a1323d697b522137837a2ed86c206b48a9f2",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/ed49a1323d697b522137837a2ed86c206b48a9f2",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/ed49a1323d697b522137837a2ed86c206b48a9f2",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/ed49a1323d697b522137837a2ed86c206b48a9f2/comments",
+        "author": {
+            "login": "rbrancher",
+            "id": 393354,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/393354?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rbrancher",
+            "html_url": "https://github.com/rbrancher",
+            "followers_url": "https://api.github.com/users/rbrancher/followers",
+            "following_url": "https://api.github.com/users/rbrancher/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rbrancher/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rbrancher/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rbrancher/subscriptions",
+            "organizations_url": "https://api.github.com/users/rbrancher/orgs",
+            "repos_url": "https://api.github.com/users/rbrancher/repos",
+            "events_url": "https://api.github.com/users/rbrancher/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rbrancher/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "rbrancher",
+            "id": 393354,
+            "avatar_url": "https://avatars2.githubusercontent.com/u/393354?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rbrancher",
+            "html_url": "https://github.com/rbrancher",
+            "followers_url": "https://api.github.com/users/rbrancher/followers",
+            "following_url": "https://api.github.com/users/rbrancher/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rbrancher/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rbrancher/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rbrancher/subscriptions",
+            "organizations_url": "https://api.github.com/users/rbrancher/orgs",
+            "repos_url": "https://api.github.com/users/rbrancher/repos",
+            "events_url": "https://api.github.com/users/rbrancher/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rbrancher/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d"
+            }
+        ]
+    },
+    {
+        "sha": "b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d",
+        "commit": {
+            "author": {
+                "name": "Bruno Vicenzo",
+                "email": "greenmetal@gmail.com",
+                "date": "2015-12-04T18:03:33Z"
+            },
+            "committer": {
+                "name": "Bruno Vicenzo",
+                "email": "greenmetal@gmail.com",
+                "date": "2015-12-04T18:03:33Z"
+            },
+            "message": "Merge pull request #13 from Dinda-com-br/bv-release-captured-ammount\n\nRelease 0.4.3: Add Payment#captured_amount node",
+            "tree": {
+                "sha": "5432da85e8a32d963fd7af08a2e3bd2e0c67b182",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/5432da85e8a32d963fd7af08a2e3bd2e0c67b182"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/b985cfe1e5a26d7e0a305bfe28b64bbeeb9d279d/comments",
+        "author": {
+            "login": "bvicenzo",
+            "id": 173159,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/173159?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bvicenzo",
+            "html_url": "https://github.com/bvicenzo",
+            "followers_url": "https://api.github.com/users/bvicenzo/followers",
+            "following_url": "https://api.github.com/users/bvicenzo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bvicenzo/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bvicenzo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bvicenzo/subscriptions",
+            "organizations_url": "https://api.github.com/users/bvicenzo/orgs",
+            "repos_url": "https://api.github.com/users/bvicenzo/repos",
+            "events_url": "https://api.github.com/users/bvicenzo/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bvicenzo/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "bvicenzo",
+            "id": 173159,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/173159?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bvicenzo",
+            "html_url": "https://github.com/bvicenzo",
+            "followers_url": "https://api.github.com/users/bvicenzo/followers",
+            "following_url": "https://api.github.com/users/bvicenzo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bvicenzo/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bvicenzo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bvicenzo/subscriptions",
+            "organizations_url": "https://api.github.com/users/bvicenzo/orgs",
+            "repos_url": "https://api.github.com/users/bvicenzo/repos",
+            "events_url": "https://api.github.com/users/bvicenzo/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bvicenzo/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "000b06303a2df5435272c476d8423ea74000154d",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/000b06303a2df5435272c476d8423ea74000154d",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/000b06303a2df5435272c476d8423ea74000154d"
+            },
+            {
+                "sha": "dc77c98d8cf4c4265cd494198f61272162c575dd",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/dc77c98d8cf4c4265cd494198f61272162c575dd",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/dc77c98d8cf4c4265cd494198f61272162c575dd"
+            }
+        ]
+    },
+    {
+        "sha": "dc77c98d8cf4c4265cd494198f61272162c575dd",
+        "commit": {
+            "author": {
+                "name": "Bruno Vicenzo",
+                "email": "bnascimento@avenuecode.com",
+                "date": "2015-12-04T18:00:10Z"
+            },
+            "committer": {
+                "name": "Bruno Vicenzo",
+                "email": "bnascimento@avenuecode.com",
+                "date": "2015-12-04T18:00:10Z"
+            },
+            "message": "Release 0.4.3: Add Payment#captured_amount node",
+            "tree": {
+                "sha": "5432da85e8a32d963fd7af08a2e3bd2e0c67b182",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/5432da85e8a32d963fd7af08a2e3bd2e0c67b182"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/dc77c98d8cf4c4265cd494198f61272162c575dd",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/dc77c98d8cf4c4265cd494198f61272162c575dd",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/dc77c98d8cf4c4265cd494198f61272162c575dd",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/dc77c98d8cf4c4265cd494198f61272162c575dd/comments",
+        "author": {
+            "login": "bvicenzo",
+            "id": 173159,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/173159?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bvicenzo",
+            "html_url": "https://github.com/bvicenzo",
+            "followers_url": "https://api.github.com/users/bvicenzo/followers",
+            "following_url": "https://api.github.com/users/bvicenzo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bvicenzo/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bvicenzo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bvicenzo/subscriptions",
+            "organizations_url": "https://api.github.com/users/bvicenzo/orgs",
+            "repos_url": "https://api.github.com/users/bvicenzo/repos",
+            "events_url": "https://api.github.com/users/bvicenzo/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bvicenzo/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "bvicenzo",
+            "id": 173159,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/173159?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bvicenzo",
+            "html_url": "https://github.com/bvicenzo",
+            "followers_url": "https://api.github.com/users/bvicenzo/followers",
+            "following_url": "https://api.github.com/users/bvicenzo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bvicenzo/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bvicenzo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bvicenzo/subscriptions",
+            "organizations_url": "https://api.github.com/users/bvicenzo/orgs",
+            "repos_url": "https://api.github.com/users/bvicenzo/repos",
+            "events_url": "https://api.github.com/users/bvicenzo/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bvicenzo/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "000b06303a2df5435272c476d8423ea74000154d",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/000b06303a2df5435272c476d8423ea74000154d",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/000b06303a2df5435272c476d8423ea74000154d"
+            }
+        ]
+    },
+    {
+        "sha": "000b06303a2df5435272c476d8423ea74000154d",
+        "commit": {
+            "author": {
+                "name": "Jimmy",
+                "email": "alexandre.sns@gmail.com",
+                "date": "2015-11-17T15:06:27Z"
+            },
+            "committer": {
+                "name": "Jimmy",
+                "email": "alexandre.sns@gmail.com",
+                "date": "2015-11-17T15:06:27Z"
+            },
+            "message": "Merge pull request #12 from Dinda-com-br/as-add-payment-attribute-captured-amount\n\nAdd payment attribute 'CapturedAmount'",
+            "tree": {
+                "sha": "3e98d8ff5d91052b48c915d0cbd969e06665a37e",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/3e98d8ff5d91052b48c915d0cbd969e06665a37e"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/000b06303a2df5435272c476d8423ea74000154d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/000b06303a2df5435272c476d8423ea74000154d",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/000b06303a2df5435272c476d8423ea74000154d",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/000b06303a2df5435272c476d8423ea74000154d/comments",
+        "author": {
+            "login": "j133y",
+            "id": 517772,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/517772?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/j133y",
+            "html_url": "https://github.com/j133y",
+            "followers_url": "https://api.github.com/users/j133y/followers",
+            "following_url": "https://api.github.com/users/j133y/following{/other_user}",
+            "gists_url": "https://api.github.com/users/j133y/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/j133y/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/j133y/subscriptions",
+            "organizations_url": "https://api.github.com/users/j133y/orgs",
+            "repos_url": "https://api.github.com/users/j133y/repos",
+            "events_url": "https://api.github.com/users/j133y/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/j133y/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "j133y",
+            "id": 517772,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/517772?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/j133y",
+            "html_url": "https://github.com/j133y",
+            "followers_url": "https://api.github.com/users/j133y/followers",
+            "following_url": "https://api.github.com/users/j133y/following{/other_user}",
+            "gists_url": "https://api.github.com/users/j133y/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/j133y/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/j133y/subscriptions",
+            "organizations_url": "https://api.github.com/users/j133y/orgs",
+            "repos_url": "https://api.github.com/users/j133y/repos",
+            "events_url": "https://api.github.com/users/j133y/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/j133y/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1daa27a2947237a6c15f61ae96747b4f13da1903",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/1daa27a2947237a6c15f61ae96747b4f13da1903",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/1daa27a2947237a6c15f61ae96747b4f13da1903"
+            },
+            {
+                "sha": "1fb496ba55266d5fd828ce65a1833378a46454ef",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/1fb496ba55266d5fd828ce65a1833378a46454ef",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/1fb496ba55266d5fd828ce65a1833378a46454ef"
+            }
+        ]
+    },
+    {
+        "sha": "1fb496ba55266d5fd828ce65a1833378a46454ef",
+        "commit": {
+            "author": {
+                "name": "Jimmy",
+                "email": "alexandre.sns@gmail.com",
+                "date": "2015-11-16T16:43:26Z"
+            },
+            "committer": {
+                "name": "Jimmy",
+                "email": "alexandre.sns@gmail.com",
+                "date": "2015-11-16T16:43:26Z"
+            },
+            "message": "Add payment attribute 'CapturedAmount'",
+            "tree": {
+                "sha": "3e98d8ff5d91052b48c915d0cbd969e06665a37e",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/3e98d8ff5d91052b48c915d0cbd969e06665a37e"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/1fb496ba55266d5fd828ce65a1833378a46454ef",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/1fb496ba55266d5fd828ce65a1833378a46454ef",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/1fb496ba55266d5fd828ce65a1833378a46454ef",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/1fb496ba55266d5fd828ce65a1833378a46454ef/comments",
+        "author": {
+            "login": "j133y",
+            "id": 517772,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/517772?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/j133y",
+            "html_url": "https://github.com/j133y",
+            "followers_url": "https://api.github.com/users/j133y/followers",
+            "following_url": "https://api.github.com/users/j133y/following{/other_user}",
+            "gists_url": "https://api.github.com/users/j133y/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/j133y/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/j133y/subscriptions",
+            "organizations_url": "https://api.github.com/users/j133y/orgs",
+            "repos_url": "https://api.github.com/users/j133y/repos",
+            "events_url": "https://api.github.com/users/j133y/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/j133y/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "j133y",
+            "id": 517772,
+            "avatar_url": "https://avatars3.githubusercontent.com/u/517772?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/j133y",
+            "html_url": "https://github.com/j133y",
+            "followers_url": "https://api.github.com/users/j133y/followers",
+            "following_url": "https://api.github.com/users/j133y/following{/other_user}",
+            "gists_url": "https://api.github.com/users/j133y/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/j133y/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/j133y/subscriptions",
+            "organizations_url": "https://api.github.com/users/j133y/orgs",
+            "repos_url": "https://api.github.com/users/j133y/repos",
+            "events_url": "https://api.github.com/users/j133y/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/j133y/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1daa27a2947237a6c15f61ae96747b4f13da1903",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/1daa27a2947237a6c15f61ae96747b4f13da1903",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/1daa27a2947237a6c15f61ae96747b4f13da1903"
+            }
+        ]
+    },
+    {
+        "sha": "1daa27a2947237a6c15f61ae96747b4f13da1903",
+        "commit": {
+            "author": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-11-12T11:46:54Z"
+            },
+            "committer": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-11-12T11:46:54Z"
+            },
+            "message": "Release 0.4.2: Add support for ERB blocks inside the configuration file",
+            "tree": {
+                "sha": "cfa32eaacbb258d49384b2f1570618284c0c9d4a",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/cfa32eaacbb258d49384b2f1570618284c0c9d4a"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/1daa27a2947237a6c15f61ae96747b4f13da1903",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/1daa27a2947237a6c15f61ae96747b4f13da1903",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/1daa27a2947237a6c15f61ae96747b4f13da1903",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/1daa27a2947237a6c15f61ae96747b4f13da1903/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "df626cb326e233c463de4e840f3f6a05d54dc551",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/df626cb326e233c463de4e840f3f6a05d54dc551",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/df626cb326e233c463de4e840f3f6a05d54dc551"
+            }
+        ]
+    },
+    {
+        "sha": "df626cb326e233c463de4e840f3f6a05d54dc551",
+        "commit": {
+            "author": {
+                "name": "Antonio Carlos",
+                "email": "antonio@compilandosolucao.com.br",
+                "date": "2015-11-12T11:44:09Z"
+            },
+            "committer": {
+                "name": "Antonio Carlos",
+                "email": "antonio@compilandosolucao.com.br",
+                "date": "2015-11-12T11:44:09Z"
+            },
+            "message": "Merge pull request #11 from plataformatec/lm-erb-support\n\nAdd support for ERB blocks inside the configuration file",
+            "tree": {
+                "sha": "8a5dc5452d9d9724f0c204a1ba255f757803b7d7",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/8a5dc5452d9d9724f0c204a1ba255f757803b7d7"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/df626cb326e233c463de4e840f3f6a05d54dc551",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/df626cb326e233c463de4e840f3f6a05d54dc551",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/df626cb326e233c463de4e840f3f6a05d54dc551",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/df626cb326e233c463de4e840f3f6a05d54dc551/comments",
+        "author": {
+            "login": "antoniofilho",
+            "id": 469113,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/469113?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/antoniofilho",
+            "html_url": "https://github.com/antoniofilho",
+            "followers_url": "https://api.github.com/users/antoniofilho/followers",
+            "following_url": "https://api.github.com/users/antoniofilho/following{/other_user}",
+            "gists_url": "https://api.github.com/users/antoniofilho/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/antoniofilho/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/antoniofilho/subscriptions",
+            "organizations_url": "https://api.github.com/users/antoniofilho/orgs",
+            "repos_url": "https://api.github.com/users/antoniofilho/repos",
+            "events_url": "https://api.github.com/users/antoniofilho/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/antoniofilho/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "antoniofilho",
+            "id": 469113,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/469113?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/antoniofilho",
+            "html_url": "https://github.com/antoniofilho",
+            "followers_url": "https://api.github.com/users/antoniofilho/followers",
+            "following_url": "https://api.github.com/users/antoniofilho/following{/other_user}",
+            "gists_url": "https://api.github.com/users/antoniofilho/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/antoniofilho/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/antoniofilho/subscriptions",
+            "organizations_url": "https://api.github.com/users/antoniofilho/orgs",
+            "repos_url": "https://api.github.com/users/antoniofilho/repos",
+            "events_url": "https://api.github.com/users/antoniofilho/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/antoniofilho/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "39f6725fddc2e0a292d5e12d484c060480e445be",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/39f6725fddc2e0a292d5e12d484c060480e445be",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/39f6725fddc2e0a292d5e12d484c060480e445be"
+            },
+            {
+                "sha": "00f048fed0b899c98511def0eb8ad04d395625d0",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/00f048fed0b899c98511def0eb8ad04d395625d0",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/00f048fed0b899c98511def0eb8ad04d395625d0"
+            }
+        ]
+    },
+    {
+        "sha": "00f048fed0b899c98511def0eb8ad04d395625d0",
+        "commit": {
+            "author": {
+                "name": "Lucas Mazza",
+                "email": "lucas.mazza@plataformatec.com.br",
+                "date": "2015-11-11T17:41:15Z"
+            },
+            "committer": {
+                "name": "Lucas Mazza",
+                "email": "lucas.mazza@plataformatec.com.br",
+                "date": "2015-11-11T19:46:56Z"
+            },
+            "message": "Add support for ERB blocks inside the configuration file\n\nThis is useful for applications that are using environment variables and\n[dotenv][1] to load different configuration values without touching the YAML\nfile.\n\nThis patch also expands the documentation of how to configure the gem in a\nRails app and removes the `Singleton` usage from the `Configuration` class to\nsimplify how the class is tested and to avoid leaking state between the multiple\ntest examples that assert operations inside a config object.\n\n[1] https://github.com/bkeepers/dotenv",
+            "tree": {
+                "sha": "8a5dc5452d9d9724f0c204a1ba255f757803b7d7",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/8a5dc5452d9d9724f0c204a1ba255f757803b7d7"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/00f048fed0b899c98511def0eb8ad04d395625d0",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/00f048fed0b899c98511def0eb8ad04d395625d0",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/00f048fed0b899c98511def0eb8ad04d395625d0",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/00f048fed0b899c98511def0eb8ad04d395625d0/comments",
+        "author": {
+            "login": "lucasmazza",
+            "id": 80978,
+            "avatar_url": "https://avatars0.githubusercontent.com/u/80978?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucasmazza",
+            "html_url": "https://github.com/lucasmazza",
+            "followers_url": "https://api.github.com/users/lucasmazza/followers",
+            "following_url": "https://api.github.com/users/lucasmazza/following{/other_user}",
+            "gists_url": "https://api.github.com/users/lucasmazza/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/lucasmazza/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/lucasmazza/subscriptions",
+            "organizations_url": "https://api.github.com/users/lucasmazza/orgs",
+            "repos_url": "https://api.github.com/users/lucasmazza/repos",
+            "events_url": "https://api.github.com/users/lucasmazza/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/lucasmazza/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "lucasmazza",
+            "id": 80978,
+            "avatar_url": "https://avatars0.githubusercontent.com/u/80978?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/lucasmazza",
+            "html_url": "https://github.com/lucasmazza",
+            "followers_url": "https://api.github.com/users/lucasmazza/followers",
+            "following_url": "https://api.github.com/users/lucasmazza/following{/other_user}",
+            "gists_url": "https://api.github.com/users/lucasmazza/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/lucasmazza/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/lucasmazza/subscriptions",
+            "organizations_url": "https://api.github.com/users/lucasmazza/orgs",
+            "repos_url": "https://api.github.com/users/lucasmazza/repos",
+            "events_url": "https://api.github.com/users/lucasmazza/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/lucasmazza/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "39f6725fddc2e0a292d5e12d484c060480e445be",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/39f6725fddc2e0a292d5e12d484c060480e445be",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/39f6725fddc2e0a292d5e12d484c060480e445be"
+            }
+        ]
+    },
+    {
+        "sha": "39f6725fddc2e0a292d5e12d484c060480e445be",
+        "commit": {
+            "author": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-10-28T11:22:05Z"
+            },
+            "committer": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-10-28T11:22:05Z"
+            },
+            "message": "Release 0.4.1: Fix error when braspag does not return nothing as response",
+            "tree": {
+                "sha": "adf35d42de3ac1601087a5447528d3548bbbb784",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/adf35d42de3ac1601087a5447528d3548bbbb784"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/39f6725fddc2e0a292d5e12d484c060480e445be",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/39f6725fddc2e0a292d5e12d484c060480e445be",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/39f6725fddc2e0a292d5e12d484c060480e445be",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/39f6725fddc2e0a292d5e12d484c060480e445be/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "9b60983b3743cde0741acf38f009b81f6b621240",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/9b60983b3743cde0741acf38f009b81f6b621240",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/9b60983b3743cde0741acf38f009b81f6b621240"
+            }
+        ]
+    },
+    {
+        "sha": "9b60983b3743cde0741acf38f009b81f6b621240",
+        "commit": {
+            "author": {
+                "name": "Antonio Carlos",
+                "email": "antonio@compilandosolucao.com.br",
+                "date": "2015-10-28T11:20:59Z"
+            },
+            "committer": {
+                "name": "Antonio Carlos",
+                "email": "antonio@compilandosolucao.com.br",
+                "date": "2015-10-28T11:20:59Z"
+            },
+            "message": "Merge pull request #10 from Dinda-com-br/af-avoid-500-error-when-braspag-returns-500\n\nFix success method to return false when an error happens on braspag",
+            "tree": {
+                "sha": "56783de56e9afbc01a758d0c8cab674e0d0ab0bd",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/56783de56e9afbc01a758d0c8cab674e0d0ab0bd"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/9b60983b3743cde0741acf38f009b81f6b621240",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/9b60983b3743cde0741acf38f009b81f6b621240",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/9b60983b3743cde0741acf38f009b81f6b621240",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/9b60983b3743cde0741acf38f009b81f6b621240/comments",
+        "author": {
+            "login": "antoniofilho",
+            "id": 469113,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/469113?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/antoniofilho",
+            "html_url": "https://github.com/antoniofilho",
+            "followers_url": "https://api.github.com/users/antoniofilho/followers",
+            "following_url": "https://api.github.com/users/antoniofilho/following{/other_user}",
+            "gists_url": "https://api.github.com/users/antoniofilho/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/antoniofilho/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/antoniofilho/subscriptions",
+            "organizations_url": "https://api.github.com/users/antoniofilho/orgs",
+            "repos_url": "https://api.github.com/users/antoniofilho/repos",
+            "events_url": "https://api.github.com/users/antoniofilho/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/antoniofilho/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "antoniofilho",
+            "id": 469113,
+            "avatar_url": "https://avatars1.githubusercontent.com/u/469113?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/antoniofilho",
+            "html_url": "https://github.com/antoniofilho",
+            "followers_url": "https://api.github.com/users/antoniofilho/followers",
+            "following_url": "https://api.github.com/users/antoniofilho/following{/other_user}",
+            "gists_url": "https://api.github.com/users/antoniofilho/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/antoniofilho/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/antoniofilho/subscriptions",
+            "organizations_url": "https://api.github.com/users/antoniofilho/orgs",
+            "repos_url": "https://api.github.com/users/antoniofilho/repos",
+            "events_url": "https://api.github.com/users/antoniofilho/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/antoniofilho/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8c53f3e8fb56812de4fec2e7e723fb4fe2347aca",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/8c53f3e8fb56812de4fec2e7e723fb4fe2347aca",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/8c53f3e8fb56812de4fec2e7e723fb4fe2347aca"
+            },
+            {
+                "sha": "4d3a1ee254316673a7b9dfa9c6e6b06a96fb2d08",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/4d3a1ee254316673a7b9dfa9c6e6b06a96fb2d08",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/4d3a1ee254316673a7b9dfa9c6e6b06a96fb2d08"
+            }
+        ]
+    },
+    {
+        "sha": "4d3a1ee254316673a7b9dfa9c6e6b06a96fb2d08",
+        "commit": {
+            "author": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-10-28T11:15:54Z"
+            },
+            "committer": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-10-28T11:15:54Z"
+            },
+            "message": "Improve logging",
+            "tree": {
+                "sha": "56783de56e9afbc01a758d0c8cab674e0d0ab0bd",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/56783de56e9afbc01a758d0c8cab674e0d0ab0bd"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/4d3a1ee254316673a7b9dfa9c6e6b06a96fb2d08",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/4d3a1ee254316673a7b9dfa9c6e6b06a96fb2d08",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/4d3a1ee254316673a7b9dfa9c6e6b06a96fb2d08",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/4d3a1ee254316673a7b9dfa9c6e6b06a96fb2d08/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "3781e61fa04d337d67dbf53fc36a1ebebdad72e4",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/3781e61fa04d337d67dbf53fc36a1ebebdad72e4",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/3781e61fa04d337d67dbf53fc36a1ebebdad72e4"
+            }
+        ]
+    },
+    {
+        "sha": "3781e61fa04d337d67dbf53fc36a1ebebdad72e4",
+        "commit": {
+            "author": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-10-28T09:51:49Z"
+            },
+            "committer": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-10-28T09:51:49Z"
+            },
+            "message": "Add some tests",
+            "tree": {
+                "sha": "1b73bad5bcf8d002657522b47d82bf5abfbb1f28",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/1b73bad5bcf8d002657522b47d82bf5abfbb1f28"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/3781e61fa04d337d67dbf53fc36a1ebebdad72e4",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/3781e61fa04d337d67dbf53fc36a1ebebdad72e4",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/3781e61fa04d337d67dbf53fc36a1ebebdad72e4",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/3781e61fa04d337d67dbf53fc36a1ebebdad72e4/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "e34c6de0bb0facfab3d88db3a2f3738fff5881c8",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/e34c6de0bb0facfab3d88db3a2f3738fff5881c8",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/e34c6de0bb0facfab3d88db3a2f3738fff5881c8"
+            }
+        ]
+    },
+    {
+        "sha": "e34c6de0bb0facfab3d88db3a2f3738fff5881c8",
+        "commit": {
+            "author": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-10-28T09:49:46Z"
+            },
+            "committer": {
+                "name": "Antonio Filho",
+                "email": "antonio.filho@dinda.com.br",
+                "date": "2015-10-28T09:49:46Z"
+            },
+            "message": "Fix success method to return false when an error happens",
+            "tree": {
+                "sha": "0ccdc419424aacfa1089b5239df4daeeda8d612c",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/trees/0ccdc419424aacfa1089b5239df4daeeda8d612c"
+            },
+            "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/git/commits/e34c6de0bb0facfab3d88db3a2f3738fff5881c8",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null
+            }
+        },
+        "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/e34c6de0bb0facfab3d88db3a2f3738fff5881c8",
+        "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/e34c6de0bb0facfab3d88db3a2f3738fff5881c8",
+        "comments_url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/e34c6de0bb0facfab3d88db3a2f3738fff5881c8/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "8c53f3e8fb56812de4fec2e7e723fb4fe2347aca",
+                "url": "https://api.github.com/repos/Dinda-com-br/braspag-rest/commits/8c53f3e8fb56812de4fec2e7e723fb4fe2347aca",
+                "html_url": "https://github.com/Dinda-com-br/braspag-rest/commit/8c53f3e8fb56812de4fec2e7e723fb4fe2347aca"
+            }
+        ]
+    }
+]
