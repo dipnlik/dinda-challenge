@@ -47,6 +47,10 @@ class GithubRepoHistory
       author_key = author['email']
       author_info = { name: author['name'], email: author['email'], commit_count: 0 }
 
+      if item['author']
+        author_info.merge!({ login: item['author']['login'], avatar_url: item['author']['avatar_url'] })
+      end
+
       commits_per_author[author_key] ||= author_info
       commits_per_author[author_key][:commit_count] += 1
     end
@@ -56,7 +60,7 @@ class GithubRepoHistory
 
   def export
     output = commits_per_author.values.map do |v|
-      [ v[:name], v[:email], v[:commit_count] ].join(';')
+      [ v[:name], v[:email], v[:login], v[:avatar_url], v[:commit_count] ].join(';')
     end
 
     _, repo_name = repo.split('/')
