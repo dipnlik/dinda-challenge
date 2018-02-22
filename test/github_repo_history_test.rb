@@ -1,9 +1,5 @@
-require 'simplecov'
-SimpleCov.start
-
-require 'minitest/autorun'
-require 'minitest/mock'
-require './main'
+require 'test_helper'
+require 'github_repo_history'
 
 describe GithubRepoHistory do
   before do
@@ -37,7 +33,7 @@ describe GithubRepoHistory do
     @subject.send(:parse)
     assert_empty @subject.commits_per_author
 
-    @subject.instance_variable_set('@commit_history', JSON.parse(File.read('response.json')))
+    @subject.instance_variable_set('@commit_history', JSON.parse(File.read('test/fixtures/response.json')))
     @subject.send(:parse)
     commits_sum = @subject.commits_per_author.values.map { |v| v[:commit_count] }.sum
     assert_equal 30, commits_sum
