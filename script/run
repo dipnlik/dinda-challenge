@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby -Ilib
+
+require 'github_repo_history'
+
+# TODO argument handling
+GithubRepoHistory.new.perform
+
+# TODO error handling
+puts "Done.  Please check the exports directory."
