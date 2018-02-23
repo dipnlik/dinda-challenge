@@ -59,7 +59,8 @@ class GithubRepoHistory
   end
 
   def export
-    output = commits_per_author.values.map do |v|
+    sorted_author_info = commits_per_author.values.sort_by { |v| v[:commit_count] }.reverse
+    output = sorted_author_info.map do |v|
       [ v[:name], v[:email], v[:login], v[:avatar_url], v[:commit_count] ].join(';')
     end
 

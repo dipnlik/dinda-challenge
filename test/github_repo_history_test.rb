@@ -45,12 +45,30 @@ describe GithubRepoHistory do
     refute File.exists?(exported_filename)
 
     @subject.instance_variable_set('@commits_per_author', {
-      'dipnlik@gmail.com' => { commit_count: 1 }
+      'dipnlik@gmail.com' => {
+        name: 'Alexandre Lima',
+        email: 'dipnlik@gmail.com',
+        login: 'dipnlik',
+        avatar_url: 'http://example.com/dipnlik.png',
+        commit_count: 1
+      },
+      'otheruser@example.com' => {
+        name: 'Other User',
+        email: 'otheruser@example.com',
+        commit_count: 3
+      },
+      'rando@example.com' => { commit_count: 2 }
     })
     Time.stub :now, Time.at(0) do
       @subject.send(:export)
       assert File.exists?(exported_filename)
     end
+
+    assert_equal [
+      "Other User;otheruser@example.com;;;3",
+      ";;;;2",
+      "Alexandre Lima;dipnlik@gmail.com;dipnlik;http://example.com/dipnlik.png;1"
+    ], File.read(exported_filename).split("\n")
   end
 
   it "can perform all steps in sequence" do
